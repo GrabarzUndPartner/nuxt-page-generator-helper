@@ -1,0 +1,1 @@
+# nuxt-page-generator-helper
