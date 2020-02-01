@@ -1,0 +1,94 @@
+{
+  "de": {
+    "openGraph": {
+      "title": "nuxt-page-generator-helper",
+      "image": "http://grabarzundpartner.github.io/nuxt-page-generator-helper/img/open-graph/image.png",
+      "image_secure_url": "https://grabarzundpartner.github.io/nuxt-page-generator-helper/img/open-graph/image.png",
+      "image_type": "image/png"
+    },
+    "components": {
+      "pageHeader": {
+        "linkList": {
+          "list": [
+            {
+              "title": "Startseite",
+              "url": {
+                "path": "/"
+              }
+            },
+            {
+              "title": "Seite-1",
+              "url": {
+                "path": "/seite-1"
+              }
+            },
+            {
+              "title": "Seite-2",
+              "url": {
+                "path": "/seite-2"
+              }
+            },
+            {
+              "title": "Oberseite",
+              "url": {
+                "path": "/oberseite"
+              }
+            },
+            {
+              "title": "Unterseite",
+              "url": {
+                "path": "/oberseite/unterseite"
+              }
+            }
+          ]
+        }
+      }
+    }
+  },
+  "en": {
+    "openGraph": {
+      "title": "nuxt-page-generator-helper",
+      "image": "img/open-graph/image.png",
+      "image_secure_url": "img/open-graph/image.png",
+      "image_type": "image/png"
+    },
+    "components": {
+      "pageHeader": {
+        "linkList": {
+          "list": [
+            {
+              "title": "Home",
+              "url": {
+                "path": "/"
+              }
+            },
+            {
+              "title": "Page-1",
+              "url": {
+                "path": "/page-1"
+              }
+            },
+            {
+              "title": "Page-2",
+              "url": {
+                "path": "/page-2"
+              }
+            },
+            {
+              "title": "Top-Page",
+              "url": {
+                "path": "/top-page"
+              }
+            },
+            {
+              "title": "Sub-Page",
+              "url": {
+                "path": "/top-page/sub-page"
+              }
+            }
+          ]
+        }
+      }
+    }
+  }
+}
