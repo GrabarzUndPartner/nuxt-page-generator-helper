@@ -4,6 +4,7 @@ node_modules
 *.log*
 .nuxt
 .vscode
+!.vscode/launch.json
 .DS_Store
 coverage
 dist
