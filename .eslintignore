@@ -7,4 +7,3 @@ reports
 
 # Plugin
 lib/plugins/*
-lib/tmpl/*
