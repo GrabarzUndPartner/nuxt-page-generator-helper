@@ -1,0 +1,12 @@
+node_modules
+*.iml
+.idea
+*.log*
+.nuxt
+.vscode/settings.json
+!.vscode/launch.json
+.DS_Store
+coverage
+dist
+reports
+.tmp
