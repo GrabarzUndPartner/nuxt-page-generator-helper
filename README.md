@@ -119,9 +119,9 @@ Coming Soon...
 or look here
 
 - [Preview](https://grabarzundpartner.github.io/nuxt-page-generator-helper/)
-- [Report Client](https://grabarzundpartner.github.io/nuxt-page-generator-helper/reports/webpack/nuxt-page-generator-helper/client.html)
-- [Report Modern](https://grabarzundpartner.github.io/nuxt-page-generator-helper/reports/webpack/nuxt-page-generator-helper/modern.html)
-- [Report Server](https://grabarzundpartner.github.io/nuxt-page-generator-helper/reports/webpack/nuxt-page-generator-helper/server.html)
+- [Report Client](https://grabarzundpartner.github.io/nuxt-page-generator-helper/reports/webpack/client.html)
+- [Report Modern](https://grabarzundpartner.github.io/nuxt-page-generator-helper/reports/webpack/modern.html)
+- [Report Server](https://grabarzundpartner.github.io/nuxt-page-generator-helper/reports/webpack/server.html)
 
 ## Development
 

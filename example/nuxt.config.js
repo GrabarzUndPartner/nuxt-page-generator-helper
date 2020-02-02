@@ -5,6 +5,10 @@ const isDev = process.env.NODE_ENV === 'development'
 const DEFAULT_LANG = 'en'
 
 module.exports = {
+  dev: isDev,
+
+  modern: 'client',
+
   rootDir: resolve(__dirname, '..'),
   buildDir: resolve(__dirname, '.nuxt'),
   srcDir: __dirname,
