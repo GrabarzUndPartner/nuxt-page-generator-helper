@@ -1,5 +1,13 @@
 # Project Changelog
 
+## [1.0.1](https://github.com/GrabarzUndPartner/nuxt-page-generator-helper/compare/v1.0.0...v1.0.1) (2020-02-02)
+
+
+### Bug Fixes
+
+* **travis-preview:** fix build task ([b7b492b](https://github.com/GrabarzUndPartner/nuxt-page-generator-helper/commit/b7b492babda47c6e5f19a1f8c7620703184219d3))
+* **travis-preview:** fix token… ([f5d9faf](https://github.com/GrabarzUndPartner/nuxt-page-generator-helper/commit/f5d9faf1af2a1f569d0806f0f87d98a39f4e50d5))
+
 # 1.0.0 (2020-02-02)
 
 
