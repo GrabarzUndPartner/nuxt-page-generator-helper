@@ -53,42 +53,44 @@ module.exports = {
   },
 
   modules: [
-    ['@/../', {
-      debug: true,
-      dev: false,
-      routesCache: false,
-      pageExtend: '@/extends/PageBuild',
-      adapter: require('./adapter/local-json'),
-      ignoreRoutes: [
-        'index',
-        'page',
-        'nested-page'
-      ],
-      nuxtI18n: {
-        locales: [
-          {
-            code: 'en',
-            iso: 'en'
-          },
-          {
-            code: 'de',
-            iso: 'de'
-          }
+    [
+      resolve(__dirname, '..'), {
+        debug: true,
+        dev: false,
+        routesCache: false,
+        pageExtend: '@/extends/PageBuild',
+        adapter: require('./adapter/local-json'),
+        ignoreRoutes: [
+          'index',
+          'page',
+          'nested-page'
         ],
-        parsePages: true,
-        defaultLocale: DEFAULT_LANG,
-        strategy: 'prefix_except_default',
-        seo: false,
-        vueI18nLoader: false,
-        vueI18n: {
-          fallbackLocale: DEFAULT_LANG,
-          messages: {
-            en: require('./globals/locales/en.json'),
-            de: require('./globals/locales/de.json')
+        nuxtI18n: {
+          locales: [
+            {
+              code: 'en',
+              iso: 'en'
+            },
+            {
+              code: 'de',
+              iso: 'de'
+            }
+          ],
+          parsePages: true,
+          defaultLocale: DEFAULT_LANG,
+          strategy: 'prefix_except_default',
+          seo: false,
+          vueI18nLoader: false,
+          vueI18n: {
+            fallbackLocale: DEFAULT_LANG,
+            messages: {
+              en: require('./globals/locales/en.json'),
+              de: require('./globals/locales/de.json')
+            }
           }
         }
       }
-    }]
+    ]
   ]
 }
 

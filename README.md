@@ -49,12 +49,12 @@ yarn add nuxt-page-generator-helper # or npm install nuxt-page-generator-helper
           }
         ],
         parsePages: true,
-        defaultLocale: DEFAULT_LANG,
+        defaultLocale: 'en',
         strategy: 'prefix_except_default',
         seo: false,
         vueI18nLoader: false,
         vueI18n: {
-          fallbackLocale: DEFAULT_LANG,
+          fallbackLocale: 'en',
           messages: {
             en: require('./globals/locales/en.json'),
             de: require('./globals/locales/de.json')

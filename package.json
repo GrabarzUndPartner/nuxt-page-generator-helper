@@ -2,6 +2,14 @@
   "name": "nuxt-page-generator-helper",
   "version": "0.0.0",
   "description": "Generate your pages statically without using payload extractors.",
+  "keywords": [
+    "nuxt",
+    "static",
+    "pags",
+    "routes",
+    "payload",
+    "extractor"
+  ],
   "repository": "GrabarzUndPartner/nuxt-page-generator-helper",
   "license": "MIT",
   "author": "Thorn-Welf Walli",
