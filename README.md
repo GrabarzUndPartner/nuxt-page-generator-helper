@@ -5,7 +5,11 @@
 [![npm downloads][npm-downloads-src]][npm-downloads-href]
 [![License][license-src]][license-href]
 
->
+> A helper for the generated static pages and target oriented integration of components.
+
+Generate your static pages without using payload-extractor. Integrate your components on the page with targeted embedding and to enable the best chunk splitting.
+
+Every not loaded resource is a good resource 🎉
 
 [📖 **Release Notes**](./CHANGELOG.md)
 
