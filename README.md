@@ -15,6 +15,10 @@ Every not loaded resource is a good resource 🎉
 
 ## Setup
 
+> ⚠️ **Important:** `nuxtI18n` must not be included separately.  
+> `nuxt-page-generator-helper` automatically includes `nuxtI18n` and offers full configurability
+> via the module options.
+
 1. Add `.tmp` entry to gitignore.
 
 2. Add `nuxt-page-generator-helper` dependency to your project
