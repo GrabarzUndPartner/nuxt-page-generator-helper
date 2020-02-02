@@ -1,5 +1,12 @@
 # Project Changelog
 
+## [1.0.8](https://github.com/GrabarzUndPartner/nuxt-page-generator-helper/compare/v1.0.7...v1.0.8) (2020-02-02)
+
+
+### Bug Fixes
+
+* **travis-token:** remove secrets, add secrets in ci-env ([dd38ecf](https://github.com/GrabarzUndPartner/nuxt-page-generator-helper/commit/dd38ecf8260c6800e2721ee12e722ba57c9047af))
+
 ## [1.0.7](https://github.com/GrabarzUndPartner/nuxt-page-generator-helper/compare/v1.0.6...v1.0.7) (2020-02-02)
 
 
