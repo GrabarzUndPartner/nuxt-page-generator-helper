@@ -95,7 +95,9 @@ yarn add nuxt-page-generator-helper # or npm install nuxt-page-generator-helper
 
 [📖 **Adapter Docs**](./README-ADAPTER.md)
 
-…
+Coming Soon...
+
+> But you can have a look at the module example. [Example Direcotry](https://github.com/GrabarzUndPartner/nuxt-page-generator-helper/tree/master/example)
 
 ## Preview
 
