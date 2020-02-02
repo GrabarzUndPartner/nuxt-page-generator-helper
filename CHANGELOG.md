@@ -1,5 +1,18 @@
 # Project Changelog
 
+# [1.1.0](https://github.com/GrabarzUndPartner/nuxt-page-generator-helper/compare/v1.0.10...v1.1.0) (2020-02-02)
+
+
+### Bug Fixes
+
+* **readme:** update readme ([a6998bd](https://github.com/GrabarzUndPartner/nuxt-page-generator-helper/commit/a6998bd9b3ebe5f16e82917cf7d9cd0df53381f9))
+* **readme:** update readme ([5aff7cd](https://github.com/GrabarzUndPartner/nuxt-page-generator-helper/commit/5aff7cd0c38a00ef71958c5bb0290b310eca0b63))
+
+
+### Features
+
+* **update:** update page templating; update keywords, update readme ([50c7429](https://github.com/GrabarzUndPartner/nuxt-page-generator-helper/commit/50c742993d97912a906fd0be1b0b79c136bc9eaa))
+
 ## [1.0.10](https://github.com/GrabarzUndPartner/nuxt-page-generator-helper/compare/v1.0.9...v1.0.10) (2020-02-02)
 
 
