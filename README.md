@@ -125,24 +125,46 @@ Adapter `local-json` is used to work with local `JSON` files.
 
 Retrieves the data for the current route using the adapter method `getRoute`.
 
+> Recommendation is to use Page `asyncData` for the request.
+
+#### Page usage example
+
 ```javascript
-this.$getGeneratorRouteData()
+export default {
+  asyncData ({ $getGeneratorRouteData }) {
+    return $getGeneratorRouteData()
+  }
+}
 ```
 
 ### _`async`_ `$getGeneratorLayoutData`
 
 Retrieves the data for the layout using the adapter method `getLayout`.
 
+> Recommendation is to use Store `nuxtInitServer` for the request.
+
+#### Store usage example
+
 ```javascript
-this.$getGeneratorLayoutData()
+export const actions = {
+  async nuxtServerInit ({ dispatch }, { $getGeneratorLayoutData }) {
+    dispatch('layout/setData', await $getGeneratorLayoutData())
+  }
+}
 ```
 
 ### `$getGeneratorOptions`
 
 Gets the adapter settings.
 
+#### Plugin usage example
+
 ```javascript
-this.$getGeneratorOptions()
+export default (ctx) => {
+  ctx.$getGeneratorLayoutData = () => {
+    return getLayout(ctx.$getGeneratorOptions());
+  }
+}
 ```
 
 ## Usage
