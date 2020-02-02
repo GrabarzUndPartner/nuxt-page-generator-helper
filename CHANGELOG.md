@@ -1,5 +1,17 @@
 # Project Changelog
 
+# [1.2.0](https://github.com/GrabarzUndPartner/nuxt-page-generator-helper/compare/v1.1.0...v1.2.0) (2020-02-02)
+
+
+### Bug Fixes
+
+* **page-extend:** add default page-extend ([0123397](https://github.com/GrabarzUndPartner/nuxt-page-generator-helper/commit/01233979f5887aee4322c73748fd41724f62aadf))
+
+
+### Features
+
+* **page-extend:** add default page-extend ([e956ac0](https://github.com/GrabarzUndPartner/nuxt-page-generator-helper/commit/e956ac0e59d985bde10e1da2e4ce05aa510a63a0))
+
 # [1.1.0](https://github.com/GrabarzUndPartner/nuxt-page-generator-helper/compare/v1.0.10...v1.1.0) (2020-02-02)
 
 
