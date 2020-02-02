@@ -12,12 +12,12 @@ import {
 export default {
   scrollToTop: true,
 
-/* PLACEHOLDER_EXTENDS */
+  /* PLACEHOLDER_EXTENDS */
 
-/* PLACEHOLDER_NUXT_I18N_PATHS */
+  /* PLACEHOLDER_NUXT_I18N_PATHS */
 
   components: {
-/* PLACEHOLDER_COMPONENTS */
+    /* PLACEHOLDER_COMPONENTS */
   },
 
   asyncData ({ $getGeneratorRouteData, error }) {
