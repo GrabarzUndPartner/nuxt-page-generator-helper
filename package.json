@@ -3,12 +3,11 @@
   "version": "1.0.10",
   "description": "Generate your pages statically without using payload extractors.",
   "keywords": [
-    "nuxt",
-    "static",
-    "pags",
+    "nuxtjs",
+    "page",
     "routes",
-    "payload",
-    "extractor"
+    "static-site-generator",
+    "payload-extractor"
   ],
   "repository": "GrabarzUndPartner/nuxt-page-generator-helper",
   "license": "MIT",
