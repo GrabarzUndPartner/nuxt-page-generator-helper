@@ -5,9 +5,9 @@
   - [Constants](#constants)
     - [PATH](#path)
   - [Functions](#functions)
-    - [getRoutes (`async`)](#getroutes-async)
-    - [getRoute (`async`)](#getroute-async)
-    - [getLayout (`async`)](#getlayout-async)
+    - [_`async`_ getRoutes](#async-getroutes)
+    - [_`async`_ getRoute](#async-getroute)
+    - [_`async`_ getLayout](#async-getlayout)
   - [Route](#route)
 
 ## Constants
@@ -28,7 +28,7 @@ export const PATH = __dirname;
 
 ## Functions
 
-### getRoutes (`async`)
+### _`async`_ getRoutes
 
 Gets all routes.
 
@@ -68,7 +68,7 @@ Gets all routes.
 ]
 ```
 
-### getRoute (`async`)
+### _`async`_ getRoute
 
 Used by individual routes in development mode.
 
@@ -95,7 +95,7 @@ Used by individual routes in development mode.
 }
 ```
 
-### getLayout (`async`)
+### _`async`_ getLayout
 
 Gets the layout data.
 

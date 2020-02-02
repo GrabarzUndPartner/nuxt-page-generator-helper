@@ -1,4 +1,4 @@
-# Adapter 'local-json
+# Adapter `local-json`
 
 Adapter `local-json` is used to work with local `JSON` files.
 
