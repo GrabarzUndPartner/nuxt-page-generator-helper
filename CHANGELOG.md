@@ -1,5 +1,12 @@
 # Project Changelog
 
+## [1.0.4](https://github.com/GrabarzUndPartner/nuxt-page-generator-helper/compare/v1.0.3...v1.0.4) (2020-02-02)
+
+
+### Bug Fixes
+
+* **travis-token:** change tokens for travis-ci.org ([6543d47](https://github.com/GrabarzUndPartner/nuxt-page-generator-helper/commit/6543d4727d0de450603f0cea72c4e26790ff09d2))
+
 ## [1.0.3](https://github.com/GrabarzUndPartner/nuxt-page-generator-helper/compare/v1.0.2...v1.0.3) (2020-02-02)
 
 
