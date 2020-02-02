@@ -80,19 +80,23 @@ yarn add nuxt-page-generator-helper # or npm install nuxt-page-generator-helper
 
 ## Options
 
-| Name              | Type      | Description                                                                                                                | Default Value  | Required |
-| ----------------- | --------- | -------------------------------------------------------------------------------------------------------------------------- | -------------- | -------- |
-| `debug`           | `Boolean` | Debug-Mode                                                                                                                 | `false`        | `false`  |
-| `dev`             | `Boolean` | If set, modul is also active in development mode.                                                                          | `false`        | `false`  |
-| `adapter`         | `Object`  | Function for querying the page structure with Content.                                                                     | `null`         | `true`   |
-| `adapterOptions`  | `Object`  | Adapter to retrieve the payloads. Contains the calls `getRoute`, `getRoutes`, `getLayout` and path specification (`PATH`). | `null`         | `true`   |
-| `pageExtend`      | `Object`  | Path to the page extension that is used during generation.                                                                 | `null`         | `true`   |
-| `componentPath`   | `String`  | Component src Path. Is required for embedding specified components in a page.                                              | `@/components` | `false`  |
-| `componentPrefix` | `String`  | Prefix for component imports in generated pages.<br>Example: Component `Text` -> Component `prefixText`                    | `prefix`       | `false`  |
-| `routesCache`     | `Boolean` | If active, the adapter result is stored locally.                                                                           | `false`        | `false`  |
-| `ignoreRoutes`    | `Array`   | List of route names, to be ignore by routes extend.<br>Example: `['index', 'page', 'nested-page']`                         | `null`         | `true`   |
-| `cleanRoutes`     | `Boolean` | If set, all already registered routes will be removed from the list.                                                       | `false`        | `false`  |
-| `nuxtI18n`        | `Object`  | Configuration for nuxt-i18n                                                                                                | `null`         | `true`   |
+| Name                     | Type      | Description                                                                                                                                                                                                                                                                                 | Default Value  | Required |
+| ------------------------ | --------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------- | -------- |
+| `debug`                  | `Boolean` | Debug-Mode                                                                                                                                                                                                                                                                                  | `false`        | `false`  |
+| `dev`                    | `Boolean` | If set, modul is also active in development mode.                                                                                                                                                                                                                                           | `false`        | `false`  |
+| `adapter`                | `Object`  | Function for querying the page structure with Content.                                                                                                                                                                                                                                      | `null`         | `true`   |
+| `adapterOptions`         | `Object`  | Adapter to retrieve the payloads. Contains the calls `getRoute`, `getRoutes`, `getLayout` and path specification (`PATH`).                                                                                                                                                                  | `null`         | `true`   |
+| `pageExtend`             | `Object`  | Path to the page extension that is used during generation.                                                                                                                                                                                                                                  | `null`         | `true`   |
+| `componentPath`          | `String`  | Component src Path. Is required for embedding specified components in a page.                                                                                                                                                                                                               | `@/components` | `false`  |
+| `componentPrefix`        | `String`  | Prefix for component imports in generated pages.<br>Example: Component `Text` -> Component `prefixText`                                                                                                                                                                                     | `prefix`       | `false`  |
+| `asyncComponentLoad`     | `Boolean` | When set, components of a page are loaded asynchronously.                                                                                                                                                                                                                                   | `true`         | `false`  |
+| `asyncComponentMaxEager` | `Number`  | Specifies the number of components assigned to the page chunk.<br>Important: Only active if `asyncComponentLoad` is set.                                                                                                                                                                    | `1`            | `false`  |
+| `lazyHydrateEnable`      | `Boolean` | Components that can be reloaded can be controlled with LazyHydration.<br>Example:<br>With the setting 'maxEagerComponents=1'<br> the first component is initialized at 'whenIdle'. All others at `whenVisible`.<br>[vue-lazy-hydration](https://github.com/maoberlehner/vue-lazy-hydration) | `true`         | `false`  |
+| `lazyHydrateRootMargin`  | `String`  | Specifies when the `whenVisible` event is triggered.<br>Example:<br>Component initialization occurs,<br>Component is less than 80px away from the visible area.                                                                                                                             | `80px`         | `false`  |
+| `routesCache`            | `Boolean` | If active, the adapter result is stored locally.                                                                                                                                                                                                                                            | `false`        | `false`  |
+| `ignoreRoutes`           | `Array`   | List of route names, to be ignore by routes extend.<br>Example: `['index', 'page', 'nested-page']`                                                                                                                                                                                          | `null`         | `true`   |
+| `cleanRoutes`            | `Boolean` | If set, all already registered routes will be removed from the list.                                                                                                                                                                                                                        | `false`        | `false`  |
+| `nuxtI18n`               | `Object`  | Configuration for nuxt-i18n                                                                                                                                                                                                                                                                 | `null`         | `true`   |
 
 ## Build matrix of the page components generation
 
@@ -112,6 +116,34 @@ yarn add nuxt-page-generator-helper # or npm install nuxt-page-generator-helper
 Adapter `local-json` is used to work with local `JSON` files.
 
 [📖 Sources]([./example/adapter/local-json/README.md](https://github.com/GrabarzUndPartner/nuxt-page-generator-helper/tree/master/example/adapter/local-json))
+
+## Plugins
+
+> 👁 All plugins available in context `client` and `server`.
+
+### _`async`_ `$getGeneratorRouteData`
+
+Retrieves the data for the current route using the adapter method `getRoute`.
+
+```javascript
+this.$getGeneratorRouteData()
+```
+
+### _`async`_ `$getGeneratorLayoutData`
+
+Retrieves the data for the layout using the adapter method `getLayout`.
+
+```javascript
+this.$getGeneratorLayoutData()
+```
+
+### `$getGeneratorOptions`
+
+Gets the adapter settings.
+
+```javascript
+this.$getGeneratorOptions()
+```
 
 ## Usage
 

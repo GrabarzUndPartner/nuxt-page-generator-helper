@@ -12,16 +12,16 @@ import {
 export default {
   scrollToTop: true,
 
-  /* PLACEHOLDER_EXTENDS */
+/* PLACEHOLDER_EXTENDS */
 
-  /* PLACEHOLDER_NUXT_I18N_PATHS */
+/* PLACEHOLDER_NUXT_I18N_PATHS */
 
   components: {
-    /* PLACEHOLDER_COMPONENTS */
+/* PLACEHOLDER_COMPONENTS */
   },
 
-  asyncData ({ $getVirtualContent, error }) {
-    return $getVirtualContent().then(module => module.default).catch(() => {
+  asyncData ({ $getGeneratorRouteData, error }) {
+    return $getGeneratorRouteData().then(module => module.default).catch(() => {
       error({ statusCode: 404, message: 'virtual content module not found' })
     })
   }

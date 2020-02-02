@@ -14,8 +14,8 @@
 
 export default {
 
-  asyncData ({ $getVirtualContent }) {
-    return $getVirtualContent()
+  asyncData ({ $getGeneratorRouteData }) {
+    return $getGeneratorRouteData()
   },
 
   data () {
