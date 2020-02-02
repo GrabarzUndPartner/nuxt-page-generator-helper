@@ -1,6 +1,6 @@
 {
   "name": "nuxt-page-generator-helper",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "description": "Generate your pages statically without using payload extractors.",
   "keywords": [
     "nuxtjs",
