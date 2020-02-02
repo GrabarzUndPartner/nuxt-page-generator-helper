@@ -19,7 +19,7 @@ Every not loaded resource is a good resource 🎉
 > `nuxt-page-generator-helper` automatically includes [nuxt-i18n](https://github.com/nuxt-community/nuxt-i18n) and offers full configurability
 > via the module options.
 >  
-> **_[nuxt-i18n](https://github.com/nuxt-community/nuxt-i18n) is a core component, if not used limit > it to a default language._**
+> **_[nuxt-i18n](https://github.com/nuxt-community/nuxt-i18n) is a core component, if not used limit it to a default language._**
 
 1. Add `.tmp` entry to gitignore.
 
