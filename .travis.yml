@@ -55,3 +55,4 @@ jobs:
         on:
           branch: master
         edge: true
+
