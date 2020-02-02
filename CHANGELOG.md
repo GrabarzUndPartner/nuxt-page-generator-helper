@@ -1,5 +1,12 @@
 # Project Changelog
 
+## [1.0.9](https://github.com/GrabarzUndPartner/nuxt-page-generator-helper/compare/v1.0.8...v1.0.9) (2020-02-02)
+
+
+### Bug Fixes
+
+* **update:** update example; adapter; readme ([84463dc](https://github.com/GrabarzUndPartner/nuxt-page-generator-helper/commit/84463dce28266389794e65beb03560a616391d47))
+
 ## [1.0.8](https://github.com/GrabarzUndPartner/nuxt-page-generator-helper/compare/v1.0.7...v1.0.8) (2020-02-02)
 
 
