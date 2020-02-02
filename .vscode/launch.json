@@ -17,19 +17,6 @@
     {
       "type": "node",
       "request": "launch",
-      "name": "Debug (getRoute)",
-      "runtimeVersion": "12.1.0",
-      "runtimeArgs": [
-        "--inspect",
-        "-r",
-        "esm"
-      ],
-      "program": "${workspaceFolder}/example/adapter/local-json/debug/getRoute.js",
-      "outputCapture": "std"
-    },
-    {
-      "type": "node",
-      "request": "launch",
       "name": "Debug (getRoutes)",
       "runtimeVersion": "12.1.0",
       "runtimeArgs": [

@@ -89,8 +89,8 @@ Used by individual routes in development mode.
 {
   "path": "/index",
   "data" : {
-    "de": {…},
-    "en" : {…}
+    "de": {},
+    "en" : {}
   }
 }
 ```
@@ -116,8 +116,8 @@ Gets the layout data.
 
 ```json
 {
-    "de": {…},
-    "en" : {…}
+    "de": {},
+    "en" : {}
 }
 ```
 
@@ -135,14 +135,14 @@ All described properties must be set.
 
 **Route**
 
-| Eigenschaft | Beschreibung   |
-| ----------- | -------------- |
-| `path`      | Route Name     |
-| `data`      | Language block |
+| Property | Description    |
+| -------- | -------------- |
+| `path`   | Route Name     |
+| `data`   | Language block |
 
 **Language block**
 
-| Eigenschaft  | Beschreibung                                            |
+| Property     | Description                                             |
 | ------------ | ------------------------------------------------------- |
 | `url`        | Route object for querying the `localPath` method (i18n) |
 | `title`      | Page title                                              |
@@ -160,9 +160,8 @@ All described properties must be set.
       "components": [
         {
           "component": "ComponentA",
-          "data": { … }
-        },
-        …
+          "data": {}
+        }
       ]
     },
     "en": {
@@ -173,11 +172,35 @@ All described properties must be set.
       "components": [
         {
           "component": "ComponentB",
-          "data": { … }
-        },
-        …
+          "data": {}
+        }
       ]
     }
   }
+}
+```
+
+**Component**
+
+| Property    | Description                                           |
+| ----------- | ----------------------------------------------------- |
+| `component` | Component name (relative to property `componentPath`) |
+| `data`      | Component Data (`props`)                              |
+
+Examples
+
+| Component Path                | Component Property Value |
+| ----------------------------- | ------------------------ |
+| `@component/ComponentA`       | `ComponentA`             |
+| `@component/sub/ComponentSub` | `sub/ComponentSub`       |
+
+```json
+{
+  "components": [
+    {
+      "component": "ComponentA",
+      "data": {}
+    }
+  ]
 }
 ```

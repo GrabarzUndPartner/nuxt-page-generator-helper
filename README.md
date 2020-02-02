@@ -101,11 +101,19 @@ yarn add nuxt-page-generator-helper # or npm install nuxt-page-generator-helper
 | nuxt start    | `false`            | `false` | `false`  | `false` |
 | nuxt generate | `true`             | `false` | `true`   | `true`  |
 
+## Adapters
+
+[📖 Adapter **Docs**](./README-ADAPTER.md)  
+
+### Adapter `local-json`
+
+Adapter `local-json` is used to work with local `JSON` files.
+
+[📖 Sources]([./example/adapter/local-json/README.md](https://github.com/GrabarzUndPartner/nuxt-page-generator-helper/tree/master/example/adapter/local-json))
+
 ## Usage
 
-[📖 **Adapter Docs**](./README-ADAPTER.md)
-
-Coming Soon...
+_**Coming Soon...**_
 
 > But you can have a look at the module example. [Example Direcotry](https://github.com/GrabarzUndPartner/nuxt-page-generator-helper/tree/master/example)
 

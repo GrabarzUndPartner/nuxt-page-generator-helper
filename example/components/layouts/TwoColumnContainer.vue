@@ -3,6 +3,7 @@
     class="layout-two-column-container"
     :class="styleClasses"
     :visible="options.visible"
+    :style-type="styleType"
   >
     <template v-slot:background>
       <slot name="background" />
@@ -37,6 +38,12 @@ export default {
           mirror: false
         }
       }
+    },
+    styleType: {
+      type: String,
+      default () {
+        return null
+      }
     }
 
   },
@@ -67,6 +74,20 @@ export default {
 
       @media (min-width: 768px) {
         lost-column: 6/12;
+      }
+    }
+  }
+
+  &.style-type--header {
+    & .lost-flex-container {
+      & > div {
+        @media (min-width: 768px) {
+          lost-column: 4/12;
+
+          &:first-child {
+            lost-column: 8/12;
+          }
+        }
       }
     }
   }

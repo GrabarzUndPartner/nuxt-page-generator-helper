@@ -1,6 +1,5 @@
-import { LOCALES_PAGES_PATH, getPageLocalesContext, getLayoutLocale } from './config'
-
-const path = require('upath')
+import path from 'upath'
+import { LOCALES_PAGES_PATH, getLayoutLocaleFile, getLocalesContext } from './config'
 
 // #########################################################
 
@@ -11,48 +10,7 @@ if (!process.client) {
   fs = require('fs')
 }
 
-export function getLayoutData () {
-  const data = getLayoutLocale()
-  return prepareOpenGraph(data)
-}
-
-function getFileContent (filepath, rootPath) {
-  return new Promise((resolve) => {
-    const shortPath = path.normalize(filepath).replace(rootPath, '').replace('.json', '')
-    fs.readFile(filepath, 'utf8', function (err, content) {
-      if (err) {
-        throw err
-      }
-      resolve({
-        path: shortPath,
-        data: JSON.parse(content)
-      })
-    })
-  })
-}
-
-function getFiles (params) {
-  if (!process.client) {
-    return new Promise((resolve) => {
-      glob(path.resolve(path.join(LOCALES_PAGES_PATH, '/**/*.json')), (err, files) => {
-        if (err) {
-          throw err
-        }
-        resolve(files)
-      })
-    }).then(files => Promise.all(files.map(filepath => getFileContent(filepath, LOCALES_PAGES_PATH))))
-  } else {
-    const requireContext = getPageLocalesContext()
-    return Promise.all(requireContext.keys().map((path) => {
-      return {
-        path,
-        data: requireContext(path)
-      }
-    }))
-  }
-}
-
-export function getPages () {
+export function getPageLocales () {
   return getFiles().then((pages) => {
     return Promise.all(pages.map(({ path, data }) => {
       return prepareOpenGraph(data).then((data) => {
@@ -74,6 +32,49 @@ export function getPages () {
       })
     }))
   })
+}
+
+export function getLayoutLocale () {
+  const data = getLayoutLocaleFile()
+  return prepareOpenGraph(data)
+}
+
+function getFileContent (filepath, rootPath) {
+  return new Promise((resolve) => {
+    const shortPath = path.normalize(filepath).replace(rootPath, '').replace('.json', '')
+    fs.readFile(filepath, 'utf8', function (err, content) {
+      if (err) {
+        throw err
+      }
+      resolve({
+        path: shortPath,
+        data: JSON.parse(content)
+      })
+    })
+  })
+}
+
+function getFiles () {
+  if (!process.client) {
+    // Production build load content from static files
+    return new Promise((resolve) => {
+      glob(path.resolve(path.join(LOCALES_PAGES_PATH, '/**/*.json')), (err, files) => {
+        if (err) {
+          throw err
+        }
+        resolve(files)
+      })
+    }).then(files => Promise.all(files.map(filepath => getFileContent(filepath, LOCALES_PAGES_PATH))))
+  } else {
+    // Dev build load content from require
+    const requireContext = getLocalesContext()
+    return Promise.all(requireContext.keys().map((path) => {
+      return {
+        path,
+        data: requireContext(path)
+      }
+    }))
+  }
 }
 
 function prepareOpenGraph (page) {

@@ -27,6 +27,13 @@ export default {
         return 'div'
       }
     },
+    styleType: {
+      type: String,
+      required: false,
+      default () {
+        return null
+      }
+    },
 
     visible: {
       type: Boolean,
@@ -38,7 +45,10 @@ export default {
 
   computed: {
     styleClasses () {
-      return { 'js--visible': this.visible }
+      return {
+        'js--visible': this.visible,
+        ['style-type--' + this.styleType]: this.styleType
+      }
     }
   }
 }

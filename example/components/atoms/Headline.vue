@@ -67,9 +67,9 @@ export default {
   },
   computed: {
     styleClasses () {
-      const classes = {}
-      classes[`headline--${this.tag}`] = true
-      return classes
+      return {
+        [`headline--${this.tag}`]: true
+      }
     }
   }
 }
