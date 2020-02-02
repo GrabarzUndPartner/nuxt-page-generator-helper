@@ -62,6 +62,7 @@ module.exports = {
         debug: true,
         dev: false,
         routesCache: false,
+        componentPath: '@/components/organisms',
         pageExtend: '@/extends/PageBuild',
         adapter: require('./adapter/local-json'),
         ignoreRoutes: [
