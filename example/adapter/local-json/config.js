@@ -1,12 +1,11 @@
-const path = require('upath')
+const { resolve, join } = require('upath')
 
-export const LOCALES_PATH = path.resolve(process.cwd(), 'example/locales/')
-export const LOCALES_PAGES_PATH = path.resolve(LOCALES_PATH, 'pages')
+export const LOCALES_PAGES_PATH = resolve(join(process.cwd(), 'example/locales/pages'))
 
-export function getPageLocalesContext () {
-  return require.context('../../locales/pages', true, /\.json$/)
+export function getLayoutLocaleFile () {
+  return require('../../locales/layout.json')
 }
 
-export function getLayoutLocale () {
-  return require('../../locales/layout')
+export function getLocalesContext () {
+  return require.context('../../locales/pages', true, /\.json$/)
 }

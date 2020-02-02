@@ -1,4 +1,4 @@
-const utils = require('./utils')
+const { getPageLocales, getLayoutLocale } = require('./utils')
 
 export const PATH = __dirname
 
@@ -6,7 +6,7 @@ export const PATH = __dirname
  * @async
  */
 export function getRoutes () {
-  return utils.getPages()
+  return getPageLocales()
     .catch((err) => { throw err })
 }
 
@@ -14,7 +14,7 @@ export function getRoutes () {
  * @async
  */
 export function getRoute ({ path, locale }) {
-  return utils.getPages().then((pages) => {
+  return getPageLocales().then((pages) => {
     return pages.find(page => page.matches.find(match => match.locale === locale && match.url === path))
   })
 }
@@ -23,5 +23,5 @@ export function getRoute ({ path, locale }) {
  * @async
  */
 export function getLayout () {
-  return utils.getLayoutData()
+  return getLayoutLocale()
 }

@@ -1,5 +1,5 @@
 <template>
-  <layout-two-column-container tag="header" class="page-header">
+  <layout-two-column-container tag="header" class="page-header" style-type="header">
     <template v-slot:left>
       <nav class="navigation">
         <molecule-link-list

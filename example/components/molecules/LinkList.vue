@@ -39,9 +39,9 @@ export default {
   },
   computed: {
     styleClasses () {
-      const classes = {}
-      classes[`type--${this.styleType}`] = this.styleType
-      return classes
+      return {
+        [`type--${this.styleType}`]: this.styleType
+      }
     }
   },
   methods: {
