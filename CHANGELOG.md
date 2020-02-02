@@ -1,5 +1,12 @@
 # Project Changelog
 
+## [1.0.10](https://github.com/GrabarzUndPartner/nuxt-page-generator-helper/compare/v1.0.9...v1.0.10) (2020-02-02)
+
+
+### Bug Fixes
+
+* **travis-preview:** add keep_history property ([8952ce7](https://github.com/GrabarzUndPartner/nuxt-page-generator-helper/commit/8952ce727ac3caa3bb37c2b5720330c0f8e95eaf))
+
 ## [1.0.9](https://github.com/GrabarzUndPartner/nuxt-page-generator-helper/compare/v1.0.8...v1.0.9) (2020-02-02)
 
 
