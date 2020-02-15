@@ -25,9 +25,9 @@
   "scripts": {
     "dev": "nuxt example",
     "start": "nuxt start --config-file example/nuxt.config.js",
-    "start:generate": "yarn static && yarn express-server --dist dist/",
+    "start:generate": "yarn generate && yarn express-server --dist dist/",
     "build": "nuxt build --config-file example/nuxt.config.js",
-    "static": "nuxt generate --config-file example/nuxt.config.js",
+    "generate": "nuxt generate --config-file example/nuxt.config.js",
     "lint": "yarn lint:js && yarn lint:css",
     "lint:js": "eslint --ext .js,.vue example lib test",
     "lint:css": "stylelint \"example/**/*.vue\" \"example/**/**/*.css\", \"lib/**/*.vue\" \"lib/**/**/*.css\"",
