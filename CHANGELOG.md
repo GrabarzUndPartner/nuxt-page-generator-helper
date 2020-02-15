@@ -1,5 +1,14 @@
 # Project Changelog
 
+## [1.2.2](https://github.com/GrabarzUndPartner/nuxt-page-generator-helper/compare/v1.2.1...v1.2.2) (2020-02-15)
+
+
+### Bug Fixes
+
+* **clean:** clean ([3b240e2](https://github.com/GrabarzUndPartner/nuxt-page-generator-helper/commit/3b240e2ae192df6efbbb07d228270ca1bd8bbe9b))
+* **i18n-page:** added "locales" property and clean code ([04ef962](https://github.com/GrabarzUndPartner/nuxt-page-generator-helper/commit/04ef962a06ff8d6072cc6993b232136dcf147b8f))
+* **travis:** fix travis yaml ([24ca764](https://github.com/GrabarzUndPartner/nuxt-page-generator-helper/commit/24ca764fa4bcf64303ece9bbb8eba4255778d923))
+
 ## [1.2.1](https://github.com/GrabarzUndPartner/nuxt-page-generator-helper/compare/v1.2.0...v1.2.1) (2020-02-02)
 
 
