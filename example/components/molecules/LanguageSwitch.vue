@@ -5,7 +5,8 @@
       :key="language.code"
     >
       <atom-link-to
-        :url="switchLocalePath(language.code)"
+        v-if="getRouteBaseName() === 'index' || getRouteBaseName() !== 'index' && localePath('index') !== localePath(getRouteBaseName(), language.code)"
+        :url="localePath(getRouteBaseName(), language.code)"
         class="language-switch"
         :title="language.code"
       />

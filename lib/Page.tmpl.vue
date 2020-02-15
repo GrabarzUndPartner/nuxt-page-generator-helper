@@ -18,12 +18,6 @@ export default {
 
   components: {
     /* PLACEHOLDER_COMPONENTS */
-  },
-
-  asyncData ({ $getGeneratorRouteData, error }) {
-    return $getGeneratorRouteData().then(module => module.default).catch(() => {
-      error({ statusCode: 404, message: 'virtual content module not found' })
-    })
   }
 
 }
