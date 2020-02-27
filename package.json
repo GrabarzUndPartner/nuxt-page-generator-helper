@@ -38,7 +38,7 @@
   "dependencies": {
     "change-case": "^4.1.1",
     "lost": "^8.3.1",
-    "nuxt-i18n": "^6.5.0",
+    "nuxt-i18n": "^6.6.0",
     "vue-lazy-hydration": "^1.0.0-beta.12",
     "webpack-bundle-analyzer": "^3.6.0",
     "webpack-virtual-modules": "^0.2.1"
