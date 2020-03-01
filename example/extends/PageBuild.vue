@@ -14,8 +14,20 @@
 
 export default {
 
-  asyncData ({ $getGeneratorRouteData }) {
-    return $getGeneratorRouteData()
+  async asyncData ({ $getGeneratorRouteData }) {
+    const data = Object.assign({}, await $getGeneratorRouteData())
+    if ('components' in data) {
+      data.components = data.components.map((component, index) => {
+        component.data.options = component.data.options || {}
+        if (index < 2) {
+          component.data.options = Object.assign(component.data.options, {
+            visible: true
+          })
+        }
+        return component
+      })
+    }
+    return data
   },
 
   data () {
@@ -24,18 +36,6 @@ export default {
       meta: null,
       components: []
     }
-  },
-
-  created () {
-    this.components = this.components.map((component, index) => {
-      component.data.options = component.data.options || {}
-      if (index < 2) {
-        component.data.options = Object.assign(component.data.options, {
-          visible: true
-        })
-      }
-      return component
-    })
   },
 
   head () {
