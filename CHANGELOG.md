@@ -1,5 +1,12 @@
 # Project Changelog
 
+# [1.3.0](https://github.com/GrabarzUndPartner/nuxt-page-generator-helper/compare/v1.2.2...v1.3.0) (2020-03-09)
+
+
+### Features
+
+* **content:** replace "dev" property with "dynamicContent" ([fcf7230](https://github.com/GrabarzUndPartner/nuxt-page-generator-helper/commit/fcf723064be0121a18e550b6ac4ec098449416d9))
+
 ## [1.2.2](https://github.com/GrabarzUndPartner/nuxt-page-generator-helper/compare/v1.2.1...v1.2.2) (2020-02-15)
 
 
