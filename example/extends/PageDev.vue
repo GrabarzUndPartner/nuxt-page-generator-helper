@@ -14,6 +14,10 @@
 
 export default {
 
+  async fetch ({ store, $getGeneratorLayoutData }) {
+    store.dispatch('layout/setData', await $getGeneratorLayoutData())
+  },
+
   asyncData ({ $getGeneratorRouteData }) {
     return $getGeneratorRouteData()
   },

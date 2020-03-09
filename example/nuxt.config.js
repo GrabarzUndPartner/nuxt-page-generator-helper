@@ -60,7 +60,6 @@ module.exports = {
     [
       resolve(__dirname, '..'), {
         debug: true,
-        dev: false,
         routesCache: false,
         componentPath: '@/components/organisms',
         pageExtend: '@/extends/PageBuild',
