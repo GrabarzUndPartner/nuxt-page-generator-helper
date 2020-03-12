@@ -1,5 +1,13 @@
 # Project Changelog
 
+# [1.4.0](https://github.com/GrabarzUndPartner/nuxt-page-generator-helper/compare/v1.3.0...v1.4.0) (2020-03-12)
+
+
+### Features
+
+* **adapter-path:** adapter can now be defined with file path ([3492de0](https://github.com/GrabarzUndPartner/nuxt-page-generator-helper/commit/3492de0e1ef21ea4404642eb2c5d3217fadb94da))
+* **adapter-path:** fix esm import ([403feef](https://github.com/GrabarzUndPartner/nuxt-page-generator-helper/commit/403feefba3c740d6e940042a3a0c90a0ca9e40a8))
+
 # [1.3.0](https://github.com/GrabarzUndPartner/nuxt-page-generator-helper/compare/v1.2.2...v1.3.0) (2020-03-09)
 
 
