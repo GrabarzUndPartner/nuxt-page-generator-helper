@@ -60,7 +60,6 @@ module.exports = {
     [
       resolve(__dirname, '..'), {
         debug: true,
-        routesCache: false,
         componentPath: '@/components/organisms',
         pageExtend: '@/extends/PageBuild',
         adapter: require('./adapter/local-json'),
