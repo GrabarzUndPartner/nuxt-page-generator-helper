@@ -16,6 +16,10 @@
     {
       "name": "Thorn-Welf Walli",
       "email": "thorn.walli@grabarzundpartner.de"
+    },
+    {
+      "name": "Stephan Gerbeth",
+      "email": "stephan.gerbeth@grabarzundpartner.de"
     }
   ],
   "files": [
@@ -37,6 +41,7 @@
   },
   "dependencies": {
     "change-case": "^4.1.1",
+    "esm": "^3.2.25",
     "lost": "^8.3.1",
     "nuxt-i18n": "^6.6.0",
     "vue-lazy-hydration": "^1.0.0-beta.12",
