@@ -1,5 +1,12 @@
 # Project Changelog
 
+## [1.4.1](https://github.com/GrabarzUndPartner/nuxt-page-generator-helper/compare/v1.4.0...v1.4.1) (2020-04-06)
+
+
+### Bug Fixes
+
+* **import:** components imports adapted ([67dc96b](https://github.com/GrabarzUndPartner/nuxt-page-generator-helper/commit/67dc96bcd1c221759e13e3ce27a778580cf80092))
+
 # [1.4.0](https://github.com/GrabarzUndPartner/nuxt-page-generator-helper/compare/v1.3.0...v1.4.0) (2020-03-12)
 
 
