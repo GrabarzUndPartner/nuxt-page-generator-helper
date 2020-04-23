@@ -98,7 +98,7 @@ module.exports = {
           cacheTime: 1000 * 60 * 15,
           gzip: false,
           exclude: [],
-          // routes: [],
+          routes: [],
           defaults: {
             changefreq: 'daily',
             priority: 1,
