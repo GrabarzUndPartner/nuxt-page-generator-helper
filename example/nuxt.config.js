@@ -91,6 +91,20 @@ module.exports = {
               de: require('./globals/locales/de.json')
             }
           }
+        },
+        sitemap: {
+          path: 'sitemap.xml',
+          hostname: process.env.HOSTNAME || 'http://localhost',
+          cacheTime: 1000 * 60 * 15,
+          gzip: false,
+          exclude: [],
+          // routes: [],
+          defaults: {
+            changefreq: 'daily',
+            priority: 1,
+            lastmod: new Date(),
+            lastmodrealtime: true
+          }
         }
       }
     ]
