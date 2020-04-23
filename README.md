@@ -18,8 +18,8 @@ Every not loaded resource is a good resource 🎉
 
 ## Setup
 
-> ⚠️ **Important:** [nuxt-i18n](https://github.com/nuxt-community/nuxt-i18n) must not be included separately.  
-> `nuxt-page-generator-helper` automatically includes [nuxt-i18n](https://github.com/nuxt-community/nuxt-i18n) and offers full configurability
+> ⚠️ **Important:** [nuxt-i18n](https://github.com/nuxt-community/nuxt-i18n) and [@nuxtjs/sitemap](https://github.com/nuxt-community/sitemap-module) must not be included separately.  
+> `nuxt-page-generator-helper` automatically includes the modules and offers full configurability
 > via the module options.
 >  
 > **_[nuxt-i18n](https://github.com/nuxt-community/nuxt-i18n) is a core component, if not used limit it to a default language._**
@@ -74,6 +74,20 @@ yarn add nuxt-page-generator-helper # or npm install nuxt-page-generator-helper
             de: require('./globals/locales/de.json')
           }
         }
+      },
+      sitemap: {
+        path: 'sitemap.xml',
+        hostname: 'http://localhost',
+        cacheTime: 1000 * 60 * 15,
+        gzip: false,
+        exclude: [],
+        routes: [],
+        defaults: {
+          changefreq: 'daily',
+          priority: 1,
+          lastmod: new Date(),
+          lastmodrealtime: true
+        }
       }
     }]
 
@@ -99,7 +113,8 @@ yarn add nuxt-page-generator-helper # or npm install nuxt-page-generator-helper
 | `routesCache`           | `Boolean`        | If active, the adapter result is stored locally.                                                                                                                                                                                                                                              | `false`                                            | `false`  |
 | `ignoreRoutes`          | `Array`          | List of route names, to be ignore by routes extend.<br>Example: `['index', 'page', 'nested-page']`                                                                                                                                                                                            | `null`                                             | `true`   |
 | `cleanRoutes`           | `Boolean`        | If set, all already registered routes will be removed from the list.                                                                                                                                                                                                                          | `false`                                            | `false`  |
-| `nuxtI18n`              | `Object`         | Configuration for nuxt-i18n                                                                                                                                                                                                                                                                   | `null`                                             | `true`   |
+| `nuxtI18n`              | `Object`         | Configuration for nuxt-i18n                                                                                                                                                                                                                                                                   |                                                    | `true`   |
+| `sitemap`               | `Object`         | Configuration for @nuxtjs/sitemap                                                                                                                                                                                                                                                             |                                                    | `false`  |
 
 ## Build matrix of the page components generation
 
