@@ -44,7 +44,7 @@
     "change-case": "^4.1.1",
     "esm": "^3.2.25",
     "lost": "^8.3.1",
-    "nuxt-i18n": "^6.10.1",
+    "nuxt-i18n": "^6.11.0",
     "vue-lazy-hydration": "^1.0.0-beta.12",
     "webpack-bundle-analyzer": "^3.7.0",
     "webpack-virtual-modules": "^0.2.2"
