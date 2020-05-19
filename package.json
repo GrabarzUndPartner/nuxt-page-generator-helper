@@ -45,7 +45,7 @@
     "lost": "8.3.1",
     "nuxt-i18n": "6.11.1",
     "vue-lazy-hydration": "1.0.0-beta.12",
-    "webpack-bundle-analyzer": "3.7.0",
+    "webpack-bundle-analyzer": "3.8.0",
     "webpack-virtual-modules": "0.2.2"
   },
   "devDependencies": {
@@ -62,7 +62,7 @@
     "jest": "24.0.0",
     "nuxt-edge": "latest",
     "standard-version": "8.0.0",
-    "stylelint": "13.4.1",
+    "stylelint": "13.5.0",
     "stylelint-config-lost": "0.0.3",
     "stylelint-config-recess-order": "2.0.4",
     "stylelint-config-standard": "20.0.0"
