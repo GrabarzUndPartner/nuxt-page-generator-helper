@@ -51,6 +51,10 @@ module.exports = {
 
   },
 
+  generate: {
+    dir: getDistPath()
+  },
+
   router: {
     base: getBasePath(),
     prefetchLinks: true
@@ -94,7 +98,7 @@ module.exports = {
         },
         sitemap: {
           path: 'sitemap.xml',
-          hostname: process.env.HOSTNAME || 'http://localhost',
+          hostname: getWebsiteHost(),
           cacheTime: 1000 * 60 * 15,
           gzip: false,
           exclude: [],
@@ -112,5 +116,13 @@ module.exports = {
 }
 
 function getBasePath () {
-  return process.env.npm_config_base || '/'
+  return process.env.npm_config_base || process.env.BASE_PATH || '/'
+}
+
+function getDistPath () {
+  return process.env.npm_config_dist || process.env.DIST_PATH || 'dist'
+}
+
+function getWebsiteHost () {
+  return process.env.npm_config_website_host || process.env.WEBSITE_HOST || 'http://localhost:3000'
 }
