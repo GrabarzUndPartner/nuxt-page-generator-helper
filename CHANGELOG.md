@@ -1,5 +1,12 @@
 # Project Changelog
 
+## [1.5.2](https://github.com/GrabarzUndPartner/nuxt-page-generator-helper/compare/v1.5.1...v1.5.2) (2020-05-25)
+
+
+### Bug Fixes
+
+* **nuxt-i18n:** changing hook registration ([976567d](https://github.com/GrabarzUndPartner/nuxt-page-generator-helper/commit/976567dc56d2ecb4160f9aa3a2e755d43bb7426d))
+
 ## [1.5.1](https://github.com/GrabarzUndPartner/nuxt-page-generator-helper/compare/v1.5.0...v1.5.1) (2020-05-25)
 
 
