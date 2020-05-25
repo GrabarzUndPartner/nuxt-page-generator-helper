@@ -1,5 +1,12 @@
 # Project Changelog
 
+## [1.5.1](https://github.com/GrabarzUndPartner/nuxt-page-generator-helper/compare/v1.5.0...v1.5.1) (2020-05-25)
+
+
+### Bug Fixes
+
+* **actions:** add npm token ([75222ed](https://github.com/GrabarzUndPartner/nuxt-page-generator-helper/commit/75222ed167671ef250ec7d008bd264403128b91f))
+
 # [1.5.0](https://github.com/GrabarzUndPartner/nuxt-page-generator-helper/compare/v1.4.1...v1.5.0) (2020-04-23)
 
 

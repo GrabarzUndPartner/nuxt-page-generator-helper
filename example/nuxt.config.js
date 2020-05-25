@@ -7,13 +7,17 @@ const DEFAULT_LANG = 'en'
 module.exports = {
   dev: isDev,
 
-  modern: 'client',
+  modern: isDev ? false : 'client',
 
   rootDir: resolve(__dirname, '..'),
   buildDir: resolve(__dirname, '.nuxt'),
   srcDir: __dirname,
   render: {
     resourceHints: false
+  },
+
+  env: {
+    GITHUB_URL: process.env.GITHUB_URL
   },
 
   build: {
