@@ -4,6 +4,7 @@
     <main>
       <nuxt />
     </main>
+    <atom-github-corner />
   </div>
 </template>
 
@@ -16,7 +17,8 @@ import {
 export default {
 
   components: {
-    pageHeader: hydrateWhenIdle(() => import(/* webpackMode: "eager" */'@/components/page/Header'))
+    PageHeader: hydrateWhenIdle(() => import(/* webpackMode: "eager" */'@/components/page/Header')),
+    AtomGithubCorner: hydrateWhenIdle(() => import(/* webpackMode: "eager" */'@/components/atoms/GithubCorner'))
   },
 
   computed: {
