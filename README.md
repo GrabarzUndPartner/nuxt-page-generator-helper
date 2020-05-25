@@ -242,7 +242,7 @@ or look here
 [github-workflow-release-src]: <https://github.com/GrabarzUndPartner/nuxt-page-generator-helper/workflows/Release/badge.svg?branch=master>
 [github-workflow-release-href]: <https://github.com/GrabarzUndPartner/nuxt-page-generator-helper/actions?query=workflow%3ARelease>
 
-[github-workflow-preview-src]: <https://github.com/GrabarzUndPartner/nuxt-page-generator-helper/workflows/Release/badge.svg?branch=master>
+[github-workflow-preview-src]: <https://github.com/GrabarzUndPartner/nuxt-page-generator-helper/workflows/Preview/badge.svg?branch=master>
 [github-workflow-preview-href]: <https://github.com/GrabarzUndPartner/nuxt-page-generator-helper/actions?query=workflow%3APreview>
 
 [npm-version-src]: https://img.shields.io/npm/v/nuxt-page-generator-helper/latest.svg?style=flat-square
