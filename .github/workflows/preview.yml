@@ -69,8 +69,8 @@ jobs:
           touch dist/.nojekyll
         env:
 
-          WEBSITE_HOST: ${{ format('https://{0}.github.io/{1}', github.repository_owner, github.event.push.head.repo.name) }}
-          BASE_PATH: ${{ format('/{0}/', github.event.push.head.repo.name) }}
+          WEBSITE_HOST: ${{ format('https://{0}.github.io/{1}', github.repository_owner, 'nuxt-page-generator-helper') }}
+          BASE_PATH: ${{ format('/{0}/', 'nuxt-page-generator-helper') }}
           DIST_PATH: dist
           GITHUB_URL: ${{ format('https://github.com/{0}', github.repository) }}
 
