@@ -2,7 +2,9 @@
 
 [![Grabarz & Partner - Module][grabarz-partner-module-src]][grabarz-partner-href]  
 
-[![Build Status][travis-build-status-src]][travis-build-status-href]
+[![Preview][github-workflow-preview-src]][github-workflow-preview-href]
+[![Release][github-workflow-release-src]][github-workflow-release-href]
+
 [![npm version][npm-version-src]][npm-version-href]
 [![npm downloads][npm-downloads-src]][npm-downloads-href]
 [![Renovate - Status][renovate-status-src]][renovate-status-href]
@@ -237,8 +239,11 @@ or look here
 [renovate-status-src]: <https://img.shields.io/badge/renovate-enabled-brightgreen>
 [renovate-status-href]: <https://renovate.whitesourcesoftware.com/>
 
-[travis-build-status-src]: <https://travis-ci.org/GrabarzUndPartner/nuxt-page-generator-helper.svg?branch=master>
-[travis-build-status-href]: <https://travis-ci.org/GrabarzUndPartner/nuxt-page-generator-helper>
+[github-workflow-release-src]: <https://github.com/GrabarzUndPartner/nuxt-page-generator-helper/workflows/Release/badge.svg?branch=master>
+[github-workflow-release-href]: <https://github.com/GrabarzUndPartner/nuxt-page-generator-helper/actions?query=workflow%3ARelease>
+
+[github-workflow-preview-src]: <https://github.com/GrabarzUndPartner/nuxt-page-generator-helper/workflows/Release/badge.svg?branch=master>
+[github-workflow-preview-href]: <https://github.com/GrabarzUndPartner/nuxt-page-generator-helper/actions?query=workflow%3APreview>
 
 [npm-version-src]: https://img.shields.io/npm/v/nuxt-page-generator-helper/latest.svg?style=flat-square
 [npm-version-href]: https://npmjs.com/package/nuxt-page-generator-helper

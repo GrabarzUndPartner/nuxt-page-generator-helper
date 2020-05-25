@@ -28,6 +28,7 @@ jobs:
           mv ignore.package.json package.json
       - name: Versioning
         env:
+          NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           npx semantic-release --provider=github
