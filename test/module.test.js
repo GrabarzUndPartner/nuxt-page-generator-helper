@@ -6,7 +6,7 @@ describe('module', () => {
   beforeAll(async () => {
     ({ nuxt } = (await generate(loadConfig(__dirname, '../../example'))))
     await nuxt.listen(await generatePort(60000))
-  }, 60000)
+  }, 80000)
 
   afterAll(async () => {
     await nuxt.close()
