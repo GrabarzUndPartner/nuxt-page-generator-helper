@@ -1,5 +1,12 @@
 # Project Changelog
 
+## [1.5.3](https://github.com/GrabarzUndPartner/nuxt-page-generator-helper/compare/v1.5.2...v1.5.3) (2020-06-04)
+
+
+### Bug Fixes
+
+* **reports:** fix action for reports ([284ee1f](https://github.com/GrabarzUndPartner/nuxt-page-generator-helper/commit/284ee1f7a1f0ec8d183c7badca7dc9ef4b8f9581))
+
 ## [1.5.2](https://github.com/GrabarzUndPartner/nuxt-page-generator-helper/compare/v1.5.1...v1.5.2) (2020-05-25)
 
 
