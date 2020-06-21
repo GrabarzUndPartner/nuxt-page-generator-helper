@@ -27,6 +27,20 @@ module.exports = {
       chunk: ({ isDev }) => isDev ? '[name].js' : '[name].[chunkhash].js'
     },
 
+    babel: {
+      presets ({ isServer }) {
+        return [
+          [
+            require.resolve('@nuxt/babel-preset-app-edge'),
+            {
+              buildTarget: isServer ? 'server' : 'client',
+              corejs: { version: 3 }
+            }
+          ]
+        ]
+      }
+    },
+
     postcss: {
       plugins: {
         'postcss-nesting': {},
