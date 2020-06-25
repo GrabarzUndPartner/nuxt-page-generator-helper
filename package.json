@@ -39,7 +39,7 @@
     "test": "yarn lint && jest"
   },
   "dependencies": {
-    "@nuxtjs/sitemap": "2.3.2",
+    "@nuxtjs/sitemap": "2.4.0",
     "change-case": "4.1.1",
     "lost": "8.3.1",
     "nuxt-i18n": "6.12.2",
