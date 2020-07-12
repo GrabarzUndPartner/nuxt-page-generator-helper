@@ -61,7 +61,7 @@
     "husky": "4.2.5",
     "jest": "^26.1.0",
     "nuxt-edge": "latest",
-    "standard-version": "8.0.0",
+    "standard-version": "8.0.1",
     "stylelint": "13.6.1",
     "stylelint-config-lost": "0.0.3",
     "stylelint-config-recess-order": "2.0.4",
