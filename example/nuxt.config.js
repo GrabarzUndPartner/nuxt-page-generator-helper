@@ -2,6 +2,7 @@ const { resolve } = require('path')
 const BundleAnalyzerPlugin = require('webpack-bundle-analyzer').BundleAnalyzerPlugin
 
 const isDev = process.env.NODE_ENV === 'development'
+const isTest = process.env.NODE_ENV === 'test'
 const DEFAULT_LANG = 'en'
 
 module.exports = {
@@ -53,7 +54,7 @@ module.exports = {
     },
 
     extend (config) {
-      if (!isDev) {
+      if (!isDev && !isTest) {
         config.plugins.push(new BundleAnalyzerPlugin({
           reportFilename: resolve(`reports/webpack/${config.name}.html`),
           statsFilename: resolve(`reports/webpack/stats/${config.name}.json`),
