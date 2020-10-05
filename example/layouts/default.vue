@@ -10,21 +10,17 @@
 
 <script>
 
-import {
-  hydrateWhenIdle
-} from 'vue-lazy-hydration'
+import PageHeader from '@/components/page/Header'
+import AtomGithubCorner from '@/components/atoms/GithubCorner'
 
 export default {
 
   components: {
-    PageHeader: hydrateWhenIdle(() => import(/* webpackMode: "eager" */'@/components/page/Header')),
-    AtomGithubCorner: hydrateWhenIdle(() => import(/* webpackMode: "eager" */'@/components/atoms/GithubCorner'))
+    PageHeader,
+    AtomGithubCorner
   },
 
   computed: {
-    preventScrolling () {
-      return this.$store.getters['layout/preventScrolling']
-    },
     layoutMeta () {
       return this.$store.getters['layout/data'][this.$i18n.locale].meta
     },

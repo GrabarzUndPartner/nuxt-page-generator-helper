@@ -29,14 +29,14 @@
   "scripts": {
     "dev": "nuxt example",
     "start": "nuxt start --config-file example/nuxt.config.js",
-    "start:generate": "yarn generate && yarn express-server --dist dist/",
+    "start:generate": "npm run generate && npm run express-server --dist=dist",
     "build": "nuxt build --config-file example/nuxt.config.js",
     "generate": "nuxt generate --config-file example/nuxt.config.js",
-    "lint": "yarn lint:js && yarn lint:css",
+    "lint": "npm run lint:js && npm run lint:css",
     "lint:js": "eslint --ext .js,.vue example lib test",
     "lint:css": "stylelint \"example/**/*.vue\" \"example/**/**/*.css\", \"lib/**/*.vue\" \"lib/**/**/*.css\"",
     "express-server": "node ./tools/express-server.js",
-    "test": "yarn lint && jest"
+    "test": "npm run lint && jest"
   },
   "dependencies": {
     "@nuxtjs/sitemap": "2.4.0",
