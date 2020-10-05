@@ -6,6 +6,7 @@ const isTest = process.env.NODE_ENV === 'test'
 const DEFAULT_LANG = 'en'
 
 module.exports = {
+
   dev: isDev,
 
   modern: isDev ? false : 'client',
@@ -22,11 +23,6 @@ module.exports = {
   },
 
   build: {
-
-    filenames: {
-      app: ({ isDev }) => isDev ? '[name].js' : '[name].[chunkhash].js',
-      chunk: ({ isDev }) => isDev ? '[name].js' : '[name].[chunkhash].js'
-    },
 
     babel: {
       presets ({ isServer }) {
@@ -83,6 +79,8 @@ module.exports = {
     [
       resolve(__dirname, '..'), {
         debug: true,
+        routesCache: false,
+        layoutCache: false,
         componentPath: '@/components/organisms',
         pageExtend: '@/extends/PageBuild',
         adapter: require('./adapter/local-json'),
