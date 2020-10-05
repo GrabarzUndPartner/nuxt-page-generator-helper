@@ -1,5 +1,12 @@
 # Project Changelog
 
+## [1.5.4](https://github.com/GrabarzUndPartner/nuxt-page-generator-helper/compare/v1.5.3...v1.5.4) (2020-10-05)
+
+
+### Bug Fixes
+
+* **routes:** fix unwanted routes cache clearing ([82c1504](https://github.com/GrabarzUndPartner/nuxt-page-generator-helper/commit/82c1504e5fc2a32d795ede35f355147bfd721f6a))
+
 ## [1.5.3](https://github.com/GrabarzUndPartner/nuxt-page-generator-helper/compare/v1.5.2...v1.5.3) (2020-06-04)
 
 
