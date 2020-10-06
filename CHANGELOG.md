@@ -1,5 +1,12 @@
 # Project Changelog
 
+# [1.6.0](https://github.com/GrabarzUndPartner/nuxt-page-generator-helper/compare/v1.5.4...v1.6.0) (2020-10-05)
+
+
+### Features
+
+* **cache:** add layout cache; clean up ([3db6198](https://github.com/GrabarzUndPartner/nuxt-page-generator-helper/commit/3db6198f2e4a12794b8837517ee751fdda9f6306))
+
 ## [1.5.4](https://github.com/GrabarzUndPartner/nuxt-page-generator-helper/compare/v1.5.3...v1.5.4) (2020-10-05)
 
 
