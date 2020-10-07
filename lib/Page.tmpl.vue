@@ -1,11 +1,11 @@
 <script>
 
-import {
-  // eslint-disable-next-line no-unused-vars
-  hydrateWhenIdle,
-  // eslint-disable-next-line no-unused-vars
-  hydrateWhenVisible
-} from 'vue-lazy-hydration'
+// import {
+//   // eslint-disable-next-line no-unused-vars
+//   hydrateWhenIdle,
+//   // eslint-disable-next-line no-unused-vars
+//   hydrateWhenVisible
+// } from 'vue-lazy-hydration'
 
 /* PLACEHOLDER_IMPORTS */
 
