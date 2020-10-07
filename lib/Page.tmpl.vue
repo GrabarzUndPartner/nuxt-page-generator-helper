@@ -16,7 +16,7 @@ export default {
 
   /* PLACEHOLDER_NUXT_I18N_PATHS */
 
-  components: {
+  speedkitComponents: {
     /* PLACEHOLDER_COMPONENTS */
   }
 
