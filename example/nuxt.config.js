@@ -6,6 +6,7 @@ const isTest = process.env.NODE_ENV === 'test'
 const DEFAULT_LANG = 'en'
 
 module.exports = {
+  target: 'static',
 
   dev: isDev,
 
