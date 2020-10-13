@@ -4,7 +4,11 @@ describe('module', () => {
   let nuxt
 
   beforeAll(async () => {
-    ({ nuxt } = (await generate(loadConfig(__dirname, '../../example'))))
+    const overrides = {
+      target: null
+    };
+
+    ({ nuxt } = (await generate(loadConfig(__dirname, '../../example', overrides, { merge: true }))))
     await nuxt.listen(await generatePort(60000))
   }, 80000)
 
