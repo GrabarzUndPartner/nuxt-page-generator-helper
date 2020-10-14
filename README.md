@@ -25,7 +25,7 @@ Every not loaded resource is a good resource 🎉
 >  
 > **_[nuxt-i18n](https://github.com/nuxt-community/nuxt-i18n) is a core component, if not used limit it to a default language._**
 
-1. Add `.tmp` entry to gitignore.
+1. Add `nuxt-page-generator-helper` entry to gitignore.
 
 2. Add `nuxt-page-generator-helper` dependency to your project
 
