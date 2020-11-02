@@ -1,18 +1,8 @@
 /*!
-  * vue-router v3.4.5
+  * vue-router v3.4.8
   * (c) 2020 Evan You
   * @license MIT
   */
-
-/*!
- * @license deepcopy.js Copyright(c) 2013 sasa+1
- * https://github.com/sasaplus1/deepcopy.js
- * Released under the MIT license.
- *
- * type-detect
- * Copyright(c) 2013 jake luer <jake@alogicalparadox.com>
- * MIT Licensed
- */
 
 /*!
  * JavaScript Cookie v2.2.1
@@ -20,13 +10,6 @@
  *
  * Copyright 2006, 2015 Klaus Hartl & Fagner Brack
  * Released under the MIT license
- */
-
-/*!
- * The buffer module from node.js, for the browser.
- *
- * @author   Feross Aboukhadijeh <http://feross.org>
- * @license  MIT
  */
 
 /*!
@@ -49,7 +32,7 @@
  */
 
 /*!
- * vue-i18n v8.21.1 
+ * vue-i18n v8.22.1 
  * (c) 2020 kazuya kawaguchi
  * Released under the MIT License.
  */
