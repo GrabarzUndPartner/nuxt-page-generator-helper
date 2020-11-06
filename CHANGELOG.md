@@ -1,5 +1,13 @@
 # Project Changelog
 
+## [1.6.2](https://github.com/GrabarzUndPartner/nuxt-page-generator-helper/compare/v1.6.1...v1.6.2) (2020-11-06)
+
+
+### Bug Fixes
+
+* **cache:** change tmp dir for fullstatic file watch ([7421c15](https://github.com/GrabarzUndPartner/nuxt-page-generator-helper/commit/7421c1552d011f4defee96b688ef1b27751237d9))
+* **generate:** ignore full-static end generate for init ([8d2ddaa](https://github.com/GrabarzUndPartner/nuxt-page-generator-helper/commit/8d2ddaa376af6d02ddea18e286b806ea6302e22b))
+
 ## [1.6.1](https://github.com/GrabarzUndPartner/nuxt-page-generator-helper/compare/v1.6.0...v1.6.1) (2020-10-06)
 
 
