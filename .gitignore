@@ -10,4 +10,4 @@ node_modules
 coverage
 dist
 reports
-.tmp
+nuxt-page-generator-helper
