@@ -1,5 +1,13 @@
 # Project Changelog
 
+## [1.6.1](https://github.com/GrabarzUndPartner/nuxt-page-generator-helper/compare/v1.6.0...v1.6.1) (2020-10-06)
+
+
+### Bug Fixes
+
+* **layout:** fix layout virtual-content import ([e8040c7](https://github.com/GrabarzUndPartner/nuxt-page-generator-helper/commit/e8040c77430e569ad5b514aec4c8b749e5b83671))
+* **plugin:** fix missing adapterOptions ([2616071](https://github.com/GrabarzUndPartner/nuxt-page-generator-helper/commit/2616071be439ffc325255fa226977966e3b2bf21))
+
 # [1.6.0](https://github.com/GrabarzUndPartner/nuxt-page-generator-helper/compare/v1.5.4...v1.6.0) (2020-10-05)
 
 
