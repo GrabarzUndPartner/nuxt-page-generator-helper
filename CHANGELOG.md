@@ -1,5 +1,12 @@
 # Project Changelog
 
+## [1.6.3](https://github.com/GrabarzUndPartner/nuxt-page-generator-helper/compare/v1.6.2...v1.6.3) (2020-11-12)
+
+
+### Bug Fixes
+
+* **full-static:** fix ignore logic for module setup by page generate ([c9b1a49](https://github.com/GrabarzUndPartner/nuxt-page-generator-helper/commit/c9b1a49f7ef7b8f582601a02fe09926bbd9aa985))
+
 ## [1.6.2](https://github.com/GrabarzUndPartner/nuxt-page-generator-helper/compare/v1.6.1...v1.6.2) (2020-11-06)
 
 
