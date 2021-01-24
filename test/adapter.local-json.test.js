@@ -62,6 +62,7 @@ function checkRouteObject (object) {
     if (key in object && keys[key](object[key])) {
       return true
     }
+    return false
   }).length !== Object.keys(keys).length
   ) { return false }
 
@@ -84,6 +85,7 @@ function checkLayoutObject (object) {
       if (key in layout && keys[key](layout[key])) {
         return true
       }
+      return false
     }).length !== Object.keys(keys).length
     ) {
       return false
