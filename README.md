@@ -9,6 +9,10 @@
 [![Renovate - Status][renovate-status-src]][renovate-status-href]
 [![License][license-src]][license-href]
 
+# <span style="color: red !important;">⚠️&nbsp;⚠️&nbsp;⚠️&nbsp;NOTICE: The project is no longer maintained</span>
+
+---
+
 > A helper for the generated static pages and target oriented integration of components.
 
 Generate your static pages without using payload-extractor. Integrate your components on the page with targeted embedding and to enable the best chunk splitting.
