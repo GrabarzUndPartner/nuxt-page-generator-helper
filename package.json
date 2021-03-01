@@ -43,14 +43,14 @@
     "change-case": "4.1.2",
     "esm": "^3.2.25",
     "lost": "8.3.1",
-    "nuxt-i18n": "6.20.3",
+    "nuxt-i18n": "6.20.4",
     "vue-lazy-hydration": "1.0.0-beta.14",
     "webpack-bundle-analyzer": "4.4.0",
     "webpack-virtual-modules": "0.4.2"
   },
   "devDependencies": {
     "@babel/core": "7.13.8",
-    "@babel/preset-env": "7.13.8",
+    "@babel/preset-env": "7.13.9",
     "@commitlint/cli": "12.0.1",
     "@commitlint/config-conventional": "12.0.1",
     "@nuxtjs/eslint-config": "5.0.0",
