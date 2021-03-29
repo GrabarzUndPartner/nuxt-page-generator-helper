@@ -1,5 +1,7 @@
 # nuxt-page-generator-helper
 
+## ⚠️&nbsp;⚠️&nbsp;⚠️&nbsp;NOTICE: The project is no longer maintained
+
 [![Grabarz & Partner - Module][grabarz-partner-module-src]][grabarz-partner-href]  
 
 [![Master][github-workflow-master-src]][github-workflow-master-href]
@@ -8,8 +10,6 @@
 [![npm downloads][npm-downloads-src]][npm-downloads-href]
 [![Renovate - Status][renovate-status-src]][renovate-status-href]
 [![License][license-src]][license-href]
-
-# <span style="color: red !important;">⚠️&nbsp;⚠️&nbsp;⚠️&nbsp;NOTICE: The project is no longer maintained</span>
 
 ---
 
