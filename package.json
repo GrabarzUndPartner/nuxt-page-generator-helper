@@ -43,13 +43,13 @@
     "change-case": "4.1.2",
     "esm": "^3.2.25",
     "lost": "8.3.1",
-    "nuxt-i18n": "6.25.0",
+    "nuxt-i18n": "6.26.0",
     "vue-lazy-hydration": "1.0.0-beta.14",
     "webpack-bundle-analyzer": "4.4.1",
     "webpack-virtual-modules": "0.4.2"
   },
   "devDependencies": {
-    "@babel/core": "7.13.15",
+    "@babel/core": "7.13.16",
     "@babel/preset-env": "7.13.15",
     "@commitlint/cli": "12.1.1",
     "@commitlint/config-conventional": "12.1.1",
@@ -65,7 +65,7 @@
     "standard-version": "9.2.0",
     "stylelint": "13.12.0",
     "stylelint-config-lost": "0.0.3",
-    "stylelint-config-recess-order": "2.3.0",
+    "stylelint-config-recess-order": "2.4.0",
     "stylelint-config-standard": "21.0.0"
   },
   "publishConfig": {
