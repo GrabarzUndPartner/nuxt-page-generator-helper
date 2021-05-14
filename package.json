@@ -46,7 +46,7 @@
     "nuxt-i18n": "6.27.0",
     "vue-lazy-hydration": "1.0.0-beta.14",
     "webpack-bundle-analyzer": "4.4.1",
-    "webpack-virtual-modules": "0.4.2"
+    "webpack-virtual-modules": "0.4.3"
   },
   "devDependencies": {
     "@babel/core": "7.14.2",
