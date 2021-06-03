@@ -60,7 +60,7 @@
     "core-js": "3.13.1",
     "eslint": "7.27.0",
     "husky": "6.0.0",
-    "jest": "^27.0.3",
+    "jest": "^27.0.4",
     "nuxt-edge": "latest",
     "standard-version": "9.3.0",
     "stylelint": "13.13.1",
