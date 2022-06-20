@@ -57,7 +57,7 @@
     "@nuxtjs/module-test-utils": "1.6.3",
     "babel-eslint": "10.1.0",
     "babel-jest": "28.1.1",
-    "core-js": "3.23.1",
+    "core-js": "3.23.2",
     "eslint": "7.32.0",
     "husky": "8.0.1",
     "jest": "^28.1.1",
