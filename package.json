@@ -63,7 +63,7 @@
     "jest": "^28.1.1",
     "nuxt-edge": "latest",
     "standard-version": "9.5.0",
-    "stylelint": "13.13.1",
+    "stylelint": "16.3.1",
     "stylelint-config-lost": "0.0.3",
     "stylelint-config-recess-order": "3.0.0",
     "stylelint-config-standard": "22.0.0"
